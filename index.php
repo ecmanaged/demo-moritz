@@ -25,7 +25,7 @@
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, "http://metadata.google.internal/computeMetadata/v1/instance/zone");
 	curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-		'X-Metadata-Flavor: Google'
+		'Metadata-Flavor: Google'
 	));
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	$output = curl_exec($ch);
