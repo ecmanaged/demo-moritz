@@ -55,9 +55,9 @@
 
 				</div>
 				<div class="col-md-8">
-					<h1>visits: <?=$i_visits;?></h1>
-					<h1>nodes: <?=$i_visits;?></h1>
-					<h1>containers: <?=$i_visits;?></h1>
+					<h1>visits: <?=$output;?></h1>
+					<h1>nodes: <span id="nodes">nan</span></h1>
+					<h1>containers: <span id="pods">nan</h1>
 					<p class="lead">Bruceleesete, non stop me now!</p>
 					  
 					  <?/*<div class="carousel-iphone">
@@ -263,5 +263,32 @@
     <script src="js/animatescroll.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/retina.min.js"></script>
+
+	<script>
+
+		function load_stats() {
+			$.ajax({
+				//url: 'https://raw.githubusercontent.com/jprichardson/node-jsonfile/master/package.json',
+				url: 'https://storage.googleapis.com/moritz-demo-1138/data-eu-west-1d.json',
+				Type: 'GET',
+				dataType: 'json',
+				success: function (data) {
+					//alert(data.nodes);
+					$('#nodes').html(data.nodes);
+					$('#pods').html(data.pods);
+				},
+				error: function(xhr, status, error) {
+					alert(status);
+				}
+			});
+		}
+
+		$(document).ready(function(){
+			load_stats();
+			window.setInterval(function(){
+				load_stats();
+			}, 4000);
+		});
+	</script>
   	
 </html>
