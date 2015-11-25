@@ -3,7 +3,7 @@ MAINTAINER ackstorm@ackstorm.com
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -qq -y update && apt-get -qq -y upgrade
-RUN apt-get install -qq -y curl apt-utils
+RUN apt-get install -qq -y curl apt-utils make
 RUN curl --insecure -sL https://deb.nodesource.com/setup_4.x | bash -
 RUN apt-get install -qq -y nodejs
 RUN apt-get clean
