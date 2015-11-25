@@ -31,7 +31,7 @@
 	$output = curl_exec($ch);
 	curl_close($ch);
 
-	if(isset($output)) {
+	if(isset($output) && !(empty($output))) {
 		$a_zone = explode('/', $output);
 		$zone = end($a_zone);
 	} else {
