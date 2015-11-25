@@ -1,0 +1,10 @@
+@import "style.css";
+
+body {
+	text-align: left !important;
+}
+
+header h1 {
+	color: #fff !important;
+	text-shadow: 3px 3px #00aa00 !important;
+}
