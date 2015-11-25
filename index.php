@@ -2,7 +2,7 @@
 
 	//require_once './DatastoreService.php'; // not autoloaded yet
 	//require_once './testModel.php';
-	require_once './Bloc.php';
+/*	require_once './Bloc.php';
 
 	$google_api_config = [
 		'application-id' => '552345224612-eias0oa0q1klu9a2q84htuo5lmrsv499.apps.googleusercontent.com',
@@ -18,7 +18,7 @@
 	die('k');
 
 	foo::get_visits();
-
+*/
 	$i_visits = 1;
 
 	include('./landing.phtml');
