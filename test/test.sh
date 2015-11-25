@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Launch demo
-pm2 start /opt/demo-moritz/server.js -i 0 > /dev/null
+service php5-fpm start
+nginx &
 
 # Wait for it...
 sleep 2
