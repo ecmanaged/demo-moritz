@@ -31,6 +31,13 @@
 	$output = curl_exec($ch);
 	curl_close($ch);
 
+	if(isset($output)) {
+		$a_zone = explode('/', $output);
+		$zone = end($a_zone);
+	} else {
+		$zone = 'unknown';
+	}
+
 	$i_visits = 1;
 
 	include('./landing.phtml');
