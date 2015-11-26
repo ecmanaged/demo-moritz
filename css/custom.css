@@ -4,11 +4,17 @@ body {
 	text-align: left;
 }
 
+header {
+	padding: 100px 0px 0px 0px;
+}
+
 .right_content h2 {
 	color: #fff;
 	font-size: 60px;
 	line-height: 75px;
 	text-align: left;
+	background-color: #337ab7;
+	padding: 12px;
 }
 
 .right_content h2 i {
