@@ -1,5 +1,6 @@
 body {
-	background: url('https://storage.googleapis.com/moritz-demo-1138/back_g.jpg') no-repeat fixed 100% 100%;
+	background: url('https://storage.googleapis.com/moritz-demo-1138/back_g.jpg') no-repeat fixed 80% 80%;
+	background-position: center;
 	text-align: left;
 }
 
