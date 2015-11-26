@@ -40,6 +40,8 @@
 
 	foo::get_visits();*/
 
+	$url = explode('/', $_SERVER['REQUEST_URI']);
+
 	// redis
 	require MAIN_DIR . 'lib/predis/autoload.php';
 	Predis\Autoloader::register();
@@ -58,7 +60,14 @@
 		//die($e->getMessage());
 	}
 
-	//$redis->set("visits", 0);
+	if($url[1] == 'visits') {
+		$i_visits = $redis->get("visits");
+		echo json_encode(array('total_visits' => $i_visits));die();
+	} elseif($url[1] == 'reset') {
+		if(isset($url[2]) && $url[2] > 0) $redis->set("visits", $url[2]);
+		else $redis->set("visits", 0);
+	}
+
 	$redis->incr("visits");
 	$i_visits = $redis->get("visits");
 

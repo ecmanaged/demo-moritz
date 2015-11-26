@@ -10,3 +10,7 @@ body {
 	line-height: 75px;
 	text-align: left;
 }
+
+.right_content h2 i {
+	font-size: 75px;
+}
