@@ -51,7 +51,7 @@
 	try {
 		$redis = new Predis\Client(array(
 			'scheme' => 'tcp',
-			'host' => '10.0.0.5',
+			'host' => 'ack-monitor',
 			//'host' => '104.155.23.31',
 			'port' => 6379
 		));
