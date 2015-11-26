@@ -1,10 +1,12 @@
-@import "style.css";
-
 body {
-	text-align: left !important;
+	background: url('../img/ack/back_2.jpg');
+	background-size: 100%;
+	text-align: left;
 }
 
-header h1 {
-	color: #fff !important;
-	text-shadow: 3px 3px #00aa00 !important;
+.right_content h2 {
+	font-size: 50px;
+	line-height: 100px;
+	text-align: left;
 }
+
