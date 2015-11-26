@@ -63,7 +63,7 @@
 	if(isset($url[1]) && $url[1] == 'visits') {
 		$i_visits = $redis->get("visits");
 		echo json_encode(array('total_visits' => $i_visits));die();
-	} elseif($url[1] == 'reset') {
+	} elseif($url[1] == 'reset.php') {
 		if(isset($url[2]) && $url[2] > 0) $redis->set("visits", $url[2]);
 		else $redis->set("visits", 0);
 	}

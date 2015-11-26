@@ -1,7 +1,5 @@
 body {
-	background-attachment: fixed;
-	background: url('https://storage.googleapis.com/moritz-demo-1138/back_g.jpg');
-	background-size: 100%;
+	background: url('https://storage.googleapis.com/moritz-demo-1138/back_g.jpg') no-repeat fixed 100% 100%;
 	text-align: left;
 }
 
@@ -14,4 +12,16 @@ body {
 
 .right_content h2 i {
 	font-size: 75px;
+}
+
+@media (max-width: 767px) {
+	.right_content h2 i {
+		font-size: 60px;
+	}
+	.right_content h2 {
+		font-size: 45px;
+	}
+	.container img {
+		/*width: 90%;*/
+	}
 }
