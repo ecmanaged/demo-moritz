@@ -5,4 +5,4 @@ ENV DEBIAN_FRONTEND noninteractive
 COPY demo-moritz /opt/demo-moritz/
 
 EXPOSE 80
-CMD service php5-fpm start && nginx
+CMD service php5-fpm start && exec nginx
