@@ -5,6 +5,534 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf29e0b-d870-4c9e-a602-ba4882ee2dca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/.php_cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Transaction/AbortedMultiExecException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Transaction/AbortedMultiExecExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/AbstractConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/PubSub/AbstractConsumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/AggregateConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/PHPUnit/ArrayHasSameValuesConstraint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Pipeline/Atomic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Pipeline/AtomicTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Autoloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/Handler/BulkResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/Handler/BulkResponseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/Hash/CRC16.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/ClientContextInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/ClientException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/ClientExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/ClientInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/ClientTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/Aggregate/ClusterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Configuration/ClusterOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Configuration/ClusterOptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/ClusterStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/CommandInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/CommandTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/CommunicationException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/CommunicationExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/CompositeConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/CompositeProtocolProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/CompositeProtocolProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/CompositeStreamConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/CompositeStreamConnectionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ConnectionAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ConnectionAuthTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ConnectionEcho.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ConnectionEchoTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Pipeline/ConnectionErrorProof.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/ConnectionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/ConnectionExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Configuration/ConnectionFactoryOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Configuration/ConnectionFactoryOptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/ConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ConnectionPing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ConnectionPingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ConnectionQuit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ConnectionQuitTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ConnectionSelect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ConnectionSelectTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Monitor/Consumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/PubSub/Consumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Monitor/ConsumerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/PubSub/ConsumerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Collection/Iterator/CursorBasedIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/PubSub/DispatcherLoop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/PubSub/DispatcherLoopTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/Distributor/DistributorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/Distributor/EmptyRingException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Cluster/Distributor/EmptyRingExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Response/Error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Response/ErrorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/Handler/ErrorResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/Handler/ErrorResponseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Response/ErrorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Configuration/ExceptionsOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Configuration/ExceptionsOptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/FAQ.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/FactoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/FactoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Profile/FactoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Pipeline/FireAndForget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Pipeline/FireAndForgetTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Session/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashDeleteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashExists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashExistsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/Hash/HashGeneratorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashGet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashGetAll.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashGetAllTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashGetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashGetMultipleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashGetTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashIncrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashIncrementByFloat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashIncrementByFloatTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashIncrementByTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Collection/Iterator/HashKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Collection/Iterator/HashKeyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashKeys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashKeysTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashLengthTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/Distributor/HashRing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Cluster/Distributor/HashRingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashScanTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashSetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashSetMultipleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashSetPreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashSetPreserveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashSetTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashStringLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashStringLengthTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HashValues.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HashValuesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HyperLogLogAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HyperLogLogAddTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HyperLogLogCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HyperLogLogCountTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/HyperLogLogMerge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/HyperLogLogMergeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/Handler/IntegerResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/Handler/IntegerResponseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/Distributor/KetamaRing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Cluster/Distributor/KetamaRingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyDeleteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyDump.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyDumpTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyExists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyExistsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyExpireAt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyExpireAtTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyExpireTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyKeys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyKeysTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyMigrate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyMigrateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyMove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyMoveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyPersist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyPersistTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyPreciseExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyPreciseExpireAt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyPreciseExpireAtTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyPreciseExpireTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyPreciseTimeToLive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyPreciseTimeToLiveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/Processor/KeyPrefixProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/Processor/KeyPrefixProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyRandom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyRandomTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyRename.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyRenamePreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyRenamePreserveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyRenameTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyRestore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyRestoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyScanTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeySort.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeySortTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyTimeToLive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyTimeToLiveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/KeyType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/KeyTypeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Collection/Iterator/Keyspace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Collection/Iterator/KeyspaceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListIndex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListIndexTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListInsert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListInsertTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Collection/Iterator/ListKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Collection/Iterator/ListKeyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListLengthTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPopFirst.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPopFirstBlocking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPopFirstBlockingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPopFirstTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPopLast.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPopLastBlocking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPopLastBlockingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPopLastPushHead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPopLastPushHeadBlocking.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPopLastPushHeadBlockingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPopLastPushHeadTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPopLastTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPushHead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPushHeadTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPushHeadX.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPushHeadXTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPushTail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPushTailTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListPushTailX.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListPushTailXTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListRangeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListRemove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListRemoveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListSetTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ListTrim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ListTrimTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/Aggregate/MasterSlaveReplication.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/Aggregate/MasterSlaveReplicationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Response/Iterator/MultiBulk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Response/Iterator/MultiBulkIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/Handler/MultiBulkResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/Handler/MultiBulkResponseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Response/Iterator/MultiBulkTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Response/Iterator/MultiBulkTuple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Response/Iterator/MultiBulkTupleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Transaction/MultiExec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Transaction/MultiExecState.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Transaction/MultiExecStateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Transaction/MultiExecTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/NodeConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/NotSupportedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Configuration/OptionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Configuration/Options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Configuration/OptionsInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Configuration/OptionsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/Parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/ParametersInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/ParametersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/PhpiredisSocketConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/PhpiredisSocketConnectionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/PhpiredisStreamConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/PhpiredisStreamConnectionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Pipeline/Pipeline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Pipeline/PipelineTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/Aggregate/PredisCluster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/Aggregate/PredisClusterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/PHPUnit/PredisCommandTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/PHPUnit/PredisConnectionTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/PHPUnit/PredisDistributorTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/PredisException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/PredisExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/PHPUnit/PredisProfileTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/PredisStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Cluster/PredisStrategyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/PHPUnit/PredisTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Configuration/PrefixOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Configuration/PrefixOptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/PrefixableCommandInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/Processor/ProcessorChain.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/Processor/ProcessorChainTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/Processor/ProcessorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/ProfileInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Configuration/ProfileOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Configuration/ProfileOptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/ProtocolException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/ProtocolExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/ProtocolProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/ProtocolProcessorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/ProtocolProcessorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/PubSubPublish.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/PubSubPublishTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/PubSubPubsub.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/PubSubPubsubTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/PubSubSubscribe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/PubSubSubscribeByPattern.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/PubSubSubscribeByPatternTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/PubSubSubscribeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/PubSubUnsubscribe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/PubSubUnsubscribeByPattern.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/PubSubUnsubscribeByPatternTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/PubSubUnsubscribeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/RawCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/RawCommandTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/Aggregate/RedisCluster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/Aggregate/RedisClusterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/PHPUnit/RedisCommandConstraint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/RedisProfile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/RedisStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Cluster/RedisStrategyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/RedisUnstable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Profile/RedisUnstableTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/RedisVersion200.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Profile/RedisVersion200Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/RedisVersion220.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Profile/RedisVersion220Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/RedisVersion240.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Profile/RedisVersion240Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/RedisVersion260.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Profile/RedisVersion260Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/RedisVersion280.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Profile/RedisVersion280Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Profile/RedisVersion300.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Profile/RedisVersion300Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/Aggregate/ReplicationInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Configuration/ReplicationOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Configuration/ReplicationOptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Replication/ReplicationStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Replication/ReplicationStrategyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/RequestSerializer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/RequestSerializerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/RequestSerializerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/Handler/ResponseHandlerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Response/ResponseInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/ResponseReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/ResponseReaderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/ResponseReaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ScriptCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ScriptCommandTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerBackgroundRewriteAOF.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerBackgroundRewriteAOFTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerBackgroundSave.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerBackgroundSaveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerClientTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerCommandTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerConfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerConfigTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerDatabaseSize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerDatabaseSizeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerEval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerEvalSHA.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerEvalSHATest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerEvalTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Response/ServerException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Response/ServerExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerFlushAll.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerFlushAllTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerFlushDatabase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerFlushDatabaseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerInfoTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerInfoV26x.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerInfoV26xTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerLastSave.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerLastSaveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerMonitor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerMonitorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerObjectTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerSave.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerSaveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerScript.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerScriptTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerSentinel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerSentinelTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerShutdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerShutdownTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerSlaveOf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerSlaveOfTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerSlowlog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerSlowlogTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ServerTime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ServerTimeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetAddTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetCardinality.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetCardinalityTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetDifference.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetDifferenceStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetDifferenceStoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetDifferenceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetIntersection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetIntersectionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetIntersectionStoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetIntersectionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetIsMember.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetIsMemberTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Collection/Iterator/SetKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Collection/Iterator/SetKeyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetMembers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetMembersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetMove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetMoveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetPop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetPopTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetRandomMember.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetRandomMemberTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetRemove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetRemoveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetScanTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetUnion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/SetUnionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetUnionStoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/SetUnionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Collection/Iterator/SortedSetKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Collection/Iterator/SortedSetKeyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Response/Status.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/Handler/StatusResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/Handler/StatusResponseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Response/StatusTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Cluster/StrategyInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/StreamConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/StreamConnectionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Protocol/Text/Handler/StreamableMultiBulkResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Protocol/Text/Handler/StreamableMultiBulkResponseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringAppend.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringAppendTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringBitCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringBitCountTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringBitOp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringBitOpTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringBitPos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringBitPosTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringDecrement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringDecrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringDecrementByTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringDecrementTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringGet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringGetBit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringGetBitTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringGetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringGetMultipleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringGetRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringGetRangeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringGetSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringGetSetTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringGetTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringIncrement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringIncrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringIncrementByFloat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringIncrementByFloatTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringIncrementByTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringIncrementTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringPreciseSetExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringPreciseSetExpireTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringSetBit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringSetBitTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringSetExpire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringSetExpireTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringSetMultiple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringSetMultiplePreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringSetMultiplePreserveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringSetMultipleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringSetPreserve.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringSetPreserveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringSetRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringSetRangeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringSetTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringStrlen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringStrlenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/StringSubstr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/StringSubstrTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/TransactionDiscard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/TransactionDiscardTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/TransactionExec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/TransactionExecTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/TransactionMulti.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/TransactionMultiTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/TransactionUnwatch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/TransactionUnwatchTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/TransactionWatch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/TransactionWatchTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/VERSION" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Connection/WebdisConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Connection/WebdisConnectionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetAddTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetCardinality.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetCardinalityTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetCountTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetIncrementBy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetIncrementByTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetIntersectionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetIntersectionStoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetLexCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetLexCountTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetRangeByLex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetRangeByLexTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetRangeByScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetRangeByScoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetRangeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetRank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetRankTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetRemove.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetRemoveRangeByLex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetRemoveRangeByLexTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetRemoveRangeByRank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetRemoveRangeByRankTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetRemoveRangeByScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetRemoveRangeByScoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetRemoveTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetReverseRange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetReverseRangeByLex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetReverseRangeByLexTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetReverseRangeByScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetReverseRangeByScoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetReverseRangeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetReverseRank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetReverseRankTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetScan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetScanTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetScore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetScoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/src/Command/ZSetUnionStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/Predis/Command/ZSetUnionStoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/bin/create-command-test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/bin/create-pear" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/bin/create-phar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/bin/create-single-file" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/custom_cluster_distributor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/debuggable_connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/dispatcher_loop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/executing_redis_commands.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/key_prefixing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/lua_scripting_abstraction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/monitor_consumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/package.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/phpunit.xml.travisci" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/pipelining_commands.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/pubsub_consumer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/redis_collections_iterators.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/replication_complex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/replication_simple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/session_handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/shared.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/predis/examples/transaction_using_cas.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demo-moritz.iws" />
@@ -53,54 +581,6 @@
               <folding>
                 <element signature="e#5#1081#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientInterface.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/predis/src/ClientInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="3" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="4248">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/predis/src/Client.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="43" selection-start="3246" selection-end="3246" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="9522">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CHANGELOG.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/predis/CHANGELOG.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/predis/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Autoloader.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/predis/src/Autoloader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="5" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="1224">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -240,11 +720,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="299" selection-end="299" vertical-scroll-proportion="0.4923077" vertical-offset="0" max-vertical-offset="585">
+            <state line="16" column="1" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-pear" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/predis/bin/create-pear">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.4041451" vertical-offset="0" max-vertical-offset="4176">
+              <folding>
+                <marker date="1448542299000" expanded="true" signature="3696:4071" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -379,6 +870,28 @@
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="predis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-moritz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-moritz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -408,9 +921,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/img/ack" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/www" />
       <recent name="$PROJECT_DIR$/lib/google-api-php-client/src/Google/vendor" />
     </key>
@@ -506,7 +1019,11 @@
       <created>1448541347074</created>
       <updated>1448541347074</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="delete">
+      <created>1448542330348</created>
+      <updated>1448542330348</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -534,7 +1051,7 @@
     <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.327818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.327818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -545,7 +1062,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25505188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25505188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -578,7 +1095,8 @@
     <MESSAGE value="reset&#10;" />
     <MESSAGE value="internal ip" />
     <MESSAGE value="internal ip&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="internal ip&#10;" />
+    <MESSAGE value="delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -857,44 +1375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/predis/CHANGELOG.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/predis/src/Autoloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="5" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/predis/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/predis/src/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="43" selection-start="3246" selection-end="3246" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="9522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/predis/src/ClientInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="3" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="4248">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="35" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="144">
@@ -941,8 +1421,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="299" selection-end="299" vertical-scroll-proportion="0.4923077" vertical-offset="0" max-vertical-offset="585">
+        <state line="16" column="1" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/predis/bin/create-pear">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.4041451" vertical-offset="0" max-vertical-offset="4176">
+          <folding>
+            <marker date="1448542299000" expanded="true" signature="3696:4071" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
