@@ -60,7 +60,7 @@
 		//die($e->getMessage());
 	}
 
-	if($url[1] == 'visits') {
+	if(isset($url[1]) && $url[1] == 'visits') {
 		$i_visits = $redis->get("visits");
 		echo json_encode(array('total_visits' => $i_visits));die();
 	} elseif($url[1] == 'reset') {
