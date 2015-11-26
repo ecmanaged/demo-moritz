@@ -5,7 +5,7 @@
 
 // Assumes v1 of client libs: https://github.com/google/google-api-php-client
 // 1.0-alpha paths
-$path_lib = './lib/google-api-php-client/src/Google/';
+$path_lib = MAIN_DIR . 'lib/google-api-php-client-master/src/Google/';
 
 require_once $path_lib . 'autoload.php';
 

@@ -1,12 +1,12 @@
 body {
-	background: url('../img/ack/back_2.jpg');
+	background: url('https://storage.googleapis.com/moritz-demo-1138/back_g.jpg');
 	background-size: 100%;
 	text-align: left;
 }
 
 .right_content h2 {
-	font-size: 50px;
-	line-height: 100px;
+	color: #fff;
+	font-size: 60px;
+	line-height: 75px;
 	text-align: left;
 }
-

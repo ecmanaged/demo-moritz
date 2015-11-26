@@ -6,14 +6,14 @@
 		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
 		<!-- Bootstrap 3-->
-		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="https://storage.googleapis.com/moritz-demo-1138/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
 		<!-- Google Fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
 		<!-- Template Styles -->
+		<link href="https://storage.googleapis.com/moritz-demo-1138/style.css" rel="stylesheet" media="screen">
 		<link href="css/custom.css" rel="stylesheet" media="screen">
-		<link href="css/style.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
 
@@ -21,14 +21,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<img class="img-responsive col-md-12" src="/img/ack/logo_ack_bluewhite_transparent_1.png">
-						<img class="img-responsive col-md-12" src="/img/ack/google-cloud-platform-logo.png">
-						<?/*<div style="col-md-12">
-							<h2><?=$zone;?></h2>
-						</div>*/?>
+						<img class="img-responsive col-md-12" src="https://storage.googleapis.com/moritz-demo-1138/logo_ack_white_transparent_1.png">
+						<img class="img-responsive col-md-12" src="https://storage.googleapis.com/moritz-demo-1138/google-cloud-platform-logo_2.png">
 					</div>
 					<div class="col-md-5 col-md-offset-1 right_content">
-						<h2><i class="fa fa-users"></i> visits: 3500</h2>
+						<h2><i class="fa fa-users"></i> visits: <span id="visits"><?=$i_visits;?></span></h2>
 						<h2><i class="fa fa-server"></i> nodes: <span id="nodes">nan</span></h2>
 						<h2><i class="fa fa-th-large"></i> containers: <span id="pods">nan</h2>
 						<h2><i class="fa fa-globe"></i> zone: <span id="zone"><?=$zone;?></span></h2>
@@ -37,9 +34,8 @@
 			</div>
 		</header>
 
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/retina.min.js"></script>
+		<script src="https://storage.googleapis.com/moritz-demo-1138/jquery.js"></script>
+		<script src="https://storage.googleapis.com/moritz-demo-1138/bootstrap.min.js"></script>
 
 		<script>
 

@@ -1,6 +1,3 @@
-@import "iconfont.css";
-@import "animate.min.css";
-
 /*-----------------------------------------------------------------------------------*/
 /* GENERAL
 /*-----------------------------------------------------------------------------------*/
@@ -138,10 +135,10 @@ nav.navbar.fixed-to-top{
 header{
 	padding: 150px 0px 0px 0px;
 	height: 960px;
-	background: url('../img/ack/back_2.jpg');
+	/*background: url('../img/ack/back_2.jpg');
 	background-color: white!important;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	color: white;
 }
 
